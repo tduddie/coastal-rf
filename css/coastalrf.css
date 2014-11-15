@@ -19,6 +19,7 @@ html {
 body {
     position: relative;
     height: 100%;
+    background-color: white;
 }
 
 input, textarea, button {
@@ -297,11 +298,52 @@ a:hover {
     background-color: #e6e7e8;
 }
 
-.linecard_logo,
-.linecard_contact {
+.linecard-logo,
+.linecard-contact {
     padding: 60px;
     height: 300px;
 }
+
+.linecard-logo > a {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.linecard-logo > a > div {
+    width: inherit;
+    height: inherit;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 2;
+    opacity: 0.0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.linecard-logo > a > div:hover {
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.santron-logo {
+    background-image: url('../images/principle_logos/santron_logo.png');
+    width: 251px;
+    height: 105px;
+}
+
+.santron-logo-color {
+    background-image: url('../images/principle_logos/santron_logo_color.png');
+}
+
 
 #our_team {
     text-align: center;

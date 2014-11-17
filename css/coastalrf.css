@@ -334,6 +334,27 @@ a:hover {
     -o-transition: all 0.3s ease-in-out;
 }
 
+.vectron-logo {
+    background-image: url('../images/principle_logos/vectron_logo.png');
+    width: 251px;
+    height: 90px;
+}
+
+.vectron-logo-color {
+    background-image: url('../images/principle_logos/vectron_logo_color.png');
+}
+
+
+.minicircuits-logo {
+    background-image: url('../images/principle_logos/minicircuits_logo.png');
+    width: 456px;
+    height: 45px;
+}
+
+.minicircuits-logo-color {
+    background-image: url('../images/principle_logos/minicircuits_logo_color.png');
+}
+
 .santron-logo {
     background-image: url('../images/principle_logos/santron_logo.png');
     width: 251px;
@@ -344,6 +365,34 @@ a:hover {
     background-image: url('../images/principle_logos/santron_logo_color.png');
 }
 
+.linx-logo {
+    background-image: url('../images/principle_logos/linx_logo.png');
+    width: 157px;
+    height: 90px;
+}
+.linx-logo-color {
+    background-image: url('../images/principle_logos/linx_logo_color.png');
+}
+
+.mercury-logo {
+    background-image: url('../images/principle_logos/mercury_logo.png');
+    width: 399px;
+    height: 75px;
+}
+
+.mercury-logo-color {
+    background-image: url('../images/principle_logos/mercury_logo_color.png');
+}
+
+.ims-logo {
+    background-image: url('../images/principle_logos/ims_logo.png');
+    width: 200px;
+    height: 90px;
+}
+
+.ims-logo-color {
+    background-image: url('../images/principle_logos/ims_logo_color.png');
+}
 
 #our_team {
     text-align: center;
@@ -505,7 +554,7 @@ a:hover {
     margin-right: 5px;
 }
 
-.linkedin {
+.googleplus {
     margin-left: 10px;
 }
 
@@ -706,3 +755,5 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-delay: 1s;
   -webkit-animation-iteration-count: 3;
 }
+
+/

@@ -30,7 +30,7 @@ h1 {
     font-family: "aw-conqueror-carved-one";
     font-size: 36px;
     margin-top: 0px;
-    margin-bottom: 75px;
+    margin-bottom: 60px;
     color: black;
     text-align: center;
 }
@@ -430,7 +430,6 @@ a:hover {
 }
 
 .team-titles {
-    padding-top: 20px;
     padding-bottom: 12px;
 }
 

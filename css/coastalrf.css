@@ -164,11 +164,11 @@ a:hover {
     background-size: cover;
     background-position: 50% 50%;
     z-index: 0;
-    animation: imageAnimation 32s linear infinite 0s;
-    -webkit-animation: imageAnimation 32s linear infinite 0s;
-    -moz-animation: imageAnimation 32s linear infinite 0s;
-    -o-animation: imageAnimation 32s linear infinite 0s;
-    -ms-animation: imageAnimation 32s linear infinite 0s;
+    animation: imageAnimation 32s linear 0s infinite;
+    -webkit-animation: imageAnimation 32s linear 0s infinite;
+    -moz-animation: imageAnimation 32s linear 0s infinite;
+    -o-animation: imageAnimation 32s linear 0s infinite;
+    -ms-animation: imageAnimation 32s linear 0s infinite;
 }
 
 .splash-slideshow li:nth-child(1) span { 
@@ -181,6 +181,7 @@ a:hover {
     -webkit-animation-delay: 8s;
     -moz-animation-delay: 8s;
     -o-animation-delay: 8s;
+    opacity: 0;
 }
 
 .splash-slideshow li:nth-child(3) span { 
@@ -189,6 +190,7 @@ a:hover {
     -webkit-animation-delay: 16s;
     -moz-animation-delay: 16s;
     -o-animation-delay: 16s;
+    opacity: 0;
 }
 
 .splash-slideshow li:nth-child(4) span { 
@@ -197,6 +199,7 @@ a:hover {
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
+    opacity: 0;
 }
 
 @keyframes imageAnimation { 
@@ -392,6 +395,7 @@ a:hover {
 
 .ims-logo-color {
     background-image: url('../images/principle_logos/ims_logo_color.png');
+    margin-bottom: 2px;
 }
 
 #our_team {
@@ -515,7 +519,7 @@ a:hover {
 }
 
 .map {
-    margin-lefT:;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -553,7 +557,7 @@ a:hover {
     margin-right: 5px;
 }
 
-.googleplus {
+.linkedin-icon {
     margin-left: 10px;
 }
 
@@ -755,4 +759,3 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-iteration-count: 3;
 }
 
-/

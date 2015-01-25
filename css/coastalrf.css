@@ -173,40 +173,44 @@ a:hover {
 
 .splash-slideshow li:nth-child(1) span { 
     background-image: url('../images/splash_image/cellular_tower.jpg');
+    animation-delay: -1.6s;
+    -webkit-animation-delay: -1.6s;
+    -moz-animation-delay: -1.6s;
+    -o-animation-delay: -1.6s;
 }
 
 .splash-slideshow li:nth-child(2) span { 
     background-image: url('../images/splash_image/satellite_dishes.jpg');
-    animation-delay: 8s;
-    -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    -o-animation-delay: 8s;
+    animation-delay: 6.4s;
+    -webkit-animation-delay: 6.4s;
+    -moz-animation-delay: 6.4s;
+    -o-animation-delay: 6.4s;
     opacity: 0;
 }
 
 .splash-slideshow li:nth-child(3) span { 
     background-image: url('../images/splash_image/predator.jpg');
-    animation-delay: 16s; 
-    -webkit-animation-delay: 16s;
-    -moz-animation-delay: 16s;
-    -o-animation-delay: 16s;
+    animation-delay: 14.4s; 
+    -webkit-animation-delay: 14.4s;
+    -moz-animation-delay: 14.4s;
+    -o-animation-delay: 14.4s;
     opacity: 0;
 }
 
 .splash-slideshow li:nth-child(4) span { 
     background-image: url('../images/splash_image/landsat_satellite.jpg');
-    animation-delay: 24s; 
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
+    animation-delay: 22.4s; 
+    -webkit-animation-delay: 22.4s;
+    -moz-animation-delay: 22.4s;
+    -o-animation-delay: 22.4s;
     opacity: 0;
 }
 
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
-    12% { opacity: 1; animation-timing-function: ease-out; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
     25% { opacity: 1 }
-    40% { opacity: 0 }
+    30% { opacity: 0 }
     100% { opacity: 0 }
 }
 
@@ -220,17 +224,17 @@ a:hover {
 
 @-moz-keyframes imageAnimation {
     0% { opacity: 0; animation-timing-function: ease-in; }
-    12% { opacity: 1; animation-timing-function: ease-out; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
     25% { opacity: 1 }
-    40% { opacity: 0 }
+    30% { opacity: 0 }
     100% { opacity: 0 }
 }
 
 @-o-keyframes imageAnimation {
     0% { opacity: 0; animation-timing-function: ease-in; }
-    12% { opacity: 1; animation-timing-function: ease-out; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
     25% { opacity: 1 }
-    40% { opacity: 0 }
+    30% { opacity: 0 }
     100% { opacity: 0 }
 }
 
